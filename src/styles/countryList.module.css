@@ -1,0 +1,9 @@
+.countryList {
+    width: 100%;
+    overflow-y: scroll;
+    height: 70%;
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}

@@ -1,0 +1,56 @@
+.addCityForm {
+    padding: 2rem;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    border-radius: var(--radius-sm);
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.addCityForm form > div {
+    margin-bottom: 2.5rem;
+}
+
+.addCityForm label {
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+}
+
+.addCityForm input,
+.addCityForm textarea {
+    border: var(--yellow-border);
+}
+
+.emojiInputBox {
+    position: relative;
+}
+
+.emojiInputBox span {
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+}
+
+.deactivate {
+    background-color: var(--color-main-yellow-faded);
+    pointer-events: none;
+}
+
+.buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonBox button[type="primary"] {
+    background-color: var(--color-main-yellow);
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-sm);
+}
+
+.buttonBox button[type="primary"]:hover {
+    opacity: 0.9;
+}

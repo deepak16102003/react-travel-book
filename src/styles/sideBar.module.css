@@ -1,0 +1,7 @@
+.sideBar {
+    width: 50rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
